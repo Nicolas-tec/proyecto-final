@@ -25,7 +25,7 @@ class RegistroController extends Controller
         $user->correo = $request->correo;
         $user->clave = $request->clave;
         $user->save();
-        return redirect('/diario')->with('success', '¡Registro exitoso!');
+        return redirect('/inicio')->with('success', '¡Registro exitoso!');
     }
     
     

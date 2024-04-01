@@ -180,33 +180,39 @@ algún doctor lea o borre estas entradas
     </ul>
 </section>
 <footer>
-<div>
-      <h3>Creador</h3>
-      <p>Nicolas Turcy Santos</p>
-      <p>Corporación universitaria iberoamericana</p>
-      <p>Diplomado en desarrollo web</p>
-      <p>Soacha, Cundinamarca </p>
-      <p>2024</p>
-    </div>
     <div>
-      <h3>redes sociales</h3>
-      <ul>
-        <li><a href="https://m.facebook.com/people/Nicolas-Turcy-Santos/100009155986728/">facebook</a></li>
-        <li><a href="https://co.linkedin.com/in/nicolas-turcy-santos-8094a32b0">linkedin</a></li>
-        <li><a href="https://www.youtube.com/channel/UCzBBx0OyK6cky-dCzhav7dA">youtube</a></li>
-      </ul>
-    </div>
-    <div>
-        <h3>Referencias bibliográficas</h3>
-        <ul>
-            <li><a href="https://www.terapify.com/blog/por-que-es-importante-el-seguimiento-en-terapia/">¿Por qué es importante tener un seguimiento en la terapia psicológica?</a></li><br>
-            <li><a href="https://www.youtube.com/watch?v=UxhGgMUvt5E">Cómo mejorar la autoestima con la Terapia Breve Estratégica</a></li><br>
-            <li><a href="https://www.youtube.com/watch?v=ut9ITixue1o">Cómo resolver los conflictos con tus hijos. Pilar de la Torre, psicóloga</a></li><br>
-            <li><a href="https://www.youtube.com/watch?v=r-mHX6UwgS8">Ejemplo de terapia psicológica sobre habilidades sociales</a></li><br>
-            <li><a href="https://www.youtube.com/watch?v=ET07JuROce0&t=1s">¿Cómo es ir a terapia para cuidar la salud mental?</a></li><br>
-            <li><a href="https://www.tuterapia.com.uy/blog/la-sinceridad-beneficios-de-ser-verdadero/#:~:text=La%20Honestidad%20nos%20hace%20Ganar%20(en%20muchos%20sentidos)&text=confianza%20y%20respeto%20hacia%20tu,como%20un%20mecanismo%20de%20defensa.">La Sinceridad: Beneficios de ser Verdadero</a></li><br>
-        </ul>
-    </div>
-</footer>
+          <h3>Creadores</h3>
+          <p>Nicolas Turcy Santos</p>
+          <p>Laura Paola Leon Castillo</p>
+          <p>Diplomado en desarrollo web</p>
+          <p>2024</p>
+        </div>
+        <div>
+          <h3>redes sociales</h3>
+          <ul>
+            <p>NIcolas Turcy Santos</p>
+            <li><a href="https://m.facebook.com/people/Nicolas-Turcy-Santos/100009155986728/"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://co.linkedin.com/in/nicolas-turcy-santos-8094a32b0"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCzBBx0OyK6cky-dCzhav7dA"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+          <ul>
+            <p>Laura Paola Leon Castillo</p>
+            <li><a href="https://www.instagram.com/laurapaolaleon03/?igsh=enhjYzF1ZG54NjJ2"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div>
+            <h3>Referencias bibliográficas</h3>
+            <ul>
+                <li><a href="https://www.terapify.com/blog/por-que-es-importante-el-seguimiento-en-terapia/">¿Por qué es importante tener un seguimiento en la terapia psicológica?</a></li><br>
+                <li><a href="https://www.youtube.com/watch?v=UxhGgMUvt5E">Cómo mejorar la autoestima con la Terapia Breve Estratégica</a></li><br>
+                <li><a href="https://www.youtube.com/watch?v=ut9ITixue1o">Cómo resolver los conflictos con tus hijos. Pilar de la Torre, psicóloga</a></li><br>
+                <li><a href="https://www.youtube.com/watch?v=r-mHX6UwgS8">Ejemplo de terapia psicológica sobre habilidades sociales</a></li><br>
+                <li><a href="https://www.youtube.com/watch?v=ET07JuROce0&t=1s">¿Cómo es ir a terapia para cuidar la salud mental?</a></li><br>
+                <li><a href="https://www.tuterapia.com.uy/blog/la-sinceridad-beneficios-de-ser-verdadero/#:~:text=La%20Honestidad%20nos%20hace%20Ganar%20(en%20muchos%20sentidos)&text=confianza%20y%20respeto%20hacia%20tu,como%20un%20mecanismo%20de%20defensa.">La Sinceridad: Beneficios de ser Verdadero</a></li><br>
+                <li><a href="https://www.youtube.com/watch?v=TA9U517ISOo&t=3472s">Cómo HACER un CRUD en Laravel 9 y MySQL: Tutorial completo PASO A PASO</a></li><br>
+                <li><a href="https://www.youtube.com/watch?v=DqWXEiyp22E&t=2106s">Login y Registro de usuarios con laravel 8</a></li><br>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

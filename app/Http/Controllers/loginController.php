@@ -14,11 +14,13 @@ class loginController extends Controller
     public function store(Request $request)
 {
     $credentials = $request->only('correo', 'clave');
+    $credentials['password'] = $credentials['clave'];
+    unset($credentials['clave']);
 
     if (Auth::attempt($credentials)) {
-        return redirect()->route('diario.index');
+        return redirect()->route('inicio');
     }
-    
+
     return back()->withErrors([
         'message' => 'ACCESO DENEGADO',
     ]);

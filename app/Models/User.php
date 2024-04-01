@@ -35,7 +35,8 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $hidden = [
-        'clave', // Asegúrate de que esta columna existe en tu tabla de base de datos
+        'clave',
+        'password',
         'remember_token',
     ];
 

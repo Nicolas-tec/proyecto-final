@@ -10,13 +10,20 @@
 .navbar-brand {
             color: white;
         }
+
         .nav-link {
             color: white;
         }
+
+        .navbar-nav .nav-link:hover {
+            color: black; /* Cambiar a negro cuando pasa el cursor */
+        }
+
         li {
             display: inline;
             margin-right: 10px;
         }
+
         button {
             background-color: #0080FF;
             color: white;
@@ -26,11 +33,13 @@
             margin-bottom: 10px;
             border-radius: 0.25rem;   
         }
+
         button:hover {
             background-color: #81DAF5;
             color: white;
             text-align: center;
         }
+
         input[type="text"],
         input[type="password"] {
             background-color: #BDBDBD; 
@@ -41,28 +50,33 @@
             margin-bottom: 10px; 
             font-size: 1rem; 
         }
+
         .container-fluid {
             display: flex;
             justify-content: center;
             align-items: center;
         }
+
         .block {
             width: 400px; 
         }
+
         .mt-4{
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+
         p{
-          background-color: #F5A9A9;
-          color: red;
-          width: 95%;
-          text-align: center;
-          border-color: #FF0000;
+            background-color: #F5A9A9;
+            color: red;
+            width: 95%;
+            text-align: center;
+            border-color: #FF0000;
         }
+
         .opciones{
-          background-color: #BDBDBD; 
+            background-color: #BDBDBD; 
             border: 1px solid #ced4da; 
             border-radius: 0.25rem; 
             padding: 10px; 
@@ -71,11 +85,13 @@
             font-size: 1rem;
             color: #848484;
         }
+
         .doctor{
-          color: #000000;
+            color: #000000;
         }
+
         .paciente{
-          color: #000000;
+            color: #000000;
         }
     </style>
 </head>

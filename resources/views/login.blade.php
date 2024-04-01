@@ -89,7 +89,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{route('diario.index')}}">Diario</a>
+                        <a class="nav-link active" aria-current="page" href="{{route('register.index')}}">registro</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{ route('welcome') }}">retornar</a>

@@ -84,7 +84,7 @@
   <div class="container-fluid">
     <a class="navbar-brand">nuevo diario a pasientes</a>
     <form class="d-flex" role="search">
-    <li><a class="nav-link active" aria-current="page" href="">iniciar secion</a></li>
+    <li><a class="nav-link active" aria-current="page" href="{{ route('login.create') }}">iniciar secion</a></li>
     <li><a class="nav-link active" aria-current="page" href="{{ route('welcome') }}">retornar</a></li>
     </form>
   </div>

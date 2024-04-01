@@ -48,10 +48,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function setClaveAttribute($clave)
+    /*public function setClaveAttribute($clave)
     {
         $this->attributes['clave'] = Hash::make($clave);
-    }
+    }*/
 
     /**
      * Get the password for the user.

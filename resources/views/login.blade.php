@@ -16,7 +16,7 @@
         }
 
         .navbar-nav .nav-link:hover {
-            color: black; /* Cambiar a negro cuando pasa el cursor */
+            color: black;
         }
 
         li {

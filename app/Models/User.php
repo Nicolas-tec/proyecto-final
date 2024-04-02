@@ -22,10 +22,10 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'nombre', // Asegúrate de que esta columna existe en tu tabla de base de datos
-        'rol', // Asegúrate de que esta columna existe en tu tabla de base de datos
-        'edad', // Asegúrate de que esta columna existe en tu tabla de base de datos
-        'correo', // Asegúrate de que esta columna existe en tu tabla de base de datos
+        'nombre', 
+        'rol', 
+        'edad', 
+        'correo', 
         'clave',
     ];
 

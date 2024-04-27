@@ -122,7 +122,7 @@
                 @csrf
                 <input type="email" name="correo" id="correo" style="background-color: #BDBDBD; border: 1px solid #ced4da; border-radius: 0.25rem; padding: 10px; width: 95%; margin-bottom: 10px; font-size: 1rem;" placeholder="ingresa tu correo">
                 <br>
-                <input type="password" name="clave" id="clave" class="border border-gray-200 rounded-md w-full text-lg p-2 my-2" placeholder="ingresa tu contraseña">
+                <input type="password" name="password" id="clave" class="border border-gray-200 rounded-md w-full text-lg p-2 my-2" placeholder="ingresa tu contraseña">
                 <br>
                 @error('message')
                     <p class="border border-danger rounded-md bg-red-100 w-full text-red-600 p-2 my-2">ACCESO DENEGADO</p>

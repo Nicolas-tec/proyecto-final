@@ -107,7 +107,7 @@
           <br>
           <input type="text" name="correo" id="correo" class="border border-gray-200 rounded-md w-full text-lg p-2 my-2" placeholder="correo">
           <br>
-          <input type="password" name="clave" id="clave" class="border border-gray-200 rounded-md w-full text-lg p-2 my-2" placeholder="contraseña">
+          <input type="password" name="password" id="clave" class="border border-gray-200 rounded-md w-full text-lg p-2 my-2" placeholder="contraseña">
           <br>
           <button type="submit" class="rounded-md w-full text-lg font-semibold p-2 my-3">ingresar</button>
       </form>

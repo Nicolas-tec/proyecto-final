@@ -7,22 +7,22 @@ use Illuminate\Support\Facades\Auth;
 
 class loginController extends Controller
 {
-    public function create(){
+    public function create()
+    {
         return view('login');
     }
-    
+
     public function store(Request $request)
-{
-    $credentials = $request->only('correo', 'clave');
-    $credentials['password'] = $credentials['clave'];
-    unset($credentials['clave']);
+    {
+        $credentials = $request->only('correo', 'password');
 
-    if (Auth::attempt($credentials)) {
-        return redirect()->route('inicio');
+        if (Auth::attempt($credentials)) {
+            return redirect()->route('inicio');
+        }
+
+        return back()->withErrors([
+            'message' => 'ACCESO DENEGADO',
+        ]);
     }
+}
 
-    return back()->withErrors([
-        'message' => 'ACCESO DENEGADO',
-    ]);
-}
-}

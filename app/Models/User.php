@@ -14,7 +14,7 @@ class User extends Authenticatable
     
     protected $table = 'usuarios';
     public $timestamps = false;
-    protected $password = 'clave';
+    protected $password = 'password';
 
     /**
      * The attributes that are mass assignable.
@@ -26,7 +26,7 @@ class User extends Authenticatable
         'rol', 
         'edad', 
         'correo', 
-        'clave',
+        'password',
     ];
 
     /**
@@ -35,7 +35,6 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $hidden = [
-        'clave',
         'password',
         'remember_token',
     ];
@@ -49,10 +48,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    /*public function setClaveAttribute($clave)
+    public function setClaveAttribute($password)
     {
-        $this->attributes['clave'] = Hash::make($clave);
-    }*/
+        $this->attributes['password'] = Hash::make($password);
+    }
 
     /**
      * Get the password for the user.
@@ -61,6 +60,6 @@ class User extends Authenticatable
      */
     public function getAuthPassword()
     {
-        return $this->clave;
+        return $this->attributes['password'];
     }
 }

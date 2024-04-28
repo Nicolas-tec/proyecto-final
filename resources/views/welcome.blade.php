@@ -78,7 +78,7 @@
 <body>
 <nav class="navbar bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand">nuevo diario a pasientes</a>
+    <a class="navbar-brand">nuevo diario a pacientes</a>
     <form class="d-flex" role="search">
     <a class="nav-link active" aria-current="page" href="{{ route('login.create') }}">inicio de seccion</a>
     </form>
